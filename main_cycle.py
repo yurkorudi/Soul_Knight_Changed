@@ -9,7 +9,7 @@ width, height= pyautogui.size()
 pygame.init()
 screen = pygame.display.set_mode([width, height])
 FPS = 60
-clock = pygame.time.Clock.tick(FPS)
+#clock = pygame.time.Clock()
 
 
 # Importing and creating objects here
